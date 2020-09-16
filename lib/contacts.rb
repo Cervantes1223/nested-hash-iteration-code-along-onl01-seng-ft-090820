@@ -27,12 +27,7 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
-contacts.each do |name, data|
-      if name == "Freddy Mercury" #find the name at level 1
-      data.each do |key, value|
-         if key == :favorite_icecream_flavors #check the condition
-            #delete_if method acts like each
-            value.delete_if {|flavor| flavor = "strawberry" } 
+contacts.each do
          end
       end
       end
