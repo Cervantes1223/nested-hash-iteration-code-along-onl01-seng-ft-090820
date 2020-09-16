@@ -27,7 +27,7 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
-contacts.each do
+contacts.each do | 
          end
       end
       end
